@@ -9,11 +9,11 @@ import com.mindtree.employee.repository.EmployeeRepository;
 @Service
 public class EmployeeService {
 
-	@Autowired
-	EmployeeRepository employeeRepository;
-	
-	public Employee addEmp(Employee emp) {
-		return employeeRepository.save(emp);
-		
-	}
+//	@Autowired
+//	EmployeeRepository employeeRepository;
+//	
+//	public Employee addEmp(Employee emp) {
+//		return employeeRepository.save(emp);
+//		
+//	}
 }
