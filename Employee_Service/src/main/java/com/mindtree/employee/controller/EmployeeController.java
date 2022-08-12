@@ -30,8 +30,9 @@ public class EmployeeController {
 	public String hello1() {
 		return restTemplate.getForObject("http://DEPARTMENT-SERVICE/department/new", String.class);
 	}
-//	@PostMapping()
-//	public Employee addEmployee(Employee emp) {
-//		return employeeService.addEmp(emp);
-//	}
+	@PostMapping()
+	public Employee addEmployee(Employee emp) {
+		
+		return employeeService.addEmp(emp);
+	}
 }
